@@ -1,0 +1,18 @@
+h1{
+    /* In the textshadow first px is the horizontal shadow px than 2nd px is the verticle px and the 3rd px is the blur px  */
+    text-shadow: 3px 3px 3px green;
+    text-shadow: 3px 3px 3px red ,5px 5px 5px yellow ;
+}
+
+.box{
+    background-color: aquamarine;
+    height: 100px;
+    /* border: 1px solid black; */
+    width: 200px;
+    box-shadow: 10px 10px 15px purple , 10px 10px 15px yellow;
+    box-shadow: -10px -10px 15px purple , 10px 10px 15px yellow;
+    /* DOING BORDER USING THE SHADOW  */
+    box-shadow: 0 0 0 2px black;
+    
+
+}

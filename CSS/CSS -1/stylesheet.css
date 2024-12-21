@@ -1,0 +1,36 @@
+/* p{
+    text-shadow: 1px 1px 2px green;
+} */
+
+/* UNIVERSAL SELECTOR */
+/* * {
+  text-shadow: 1px 1px 2px red;
+} */
+
+/* NESTED SELECTOR */
+/* div.main h2 {
+  color: blue;
+} */
+
+/* ATTRIBUTE SELECTOR */
+/* div[class]{
+  color: green;
+} */
+
+
+/* FONT FAMILY */
+/* div{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+
+/* FONY STYLE */
+/* div{
+  font-style: italic;
+} */
+
+
+/* FONT WEIGHT */
+p{
+  font-weight: 900;
+}

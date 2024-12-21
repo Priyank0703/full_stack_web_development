@@ -1,0 +1,48 @@
+/* STATIC POSITIONING */
+/* p{
+    position: static;
+} */
+
+
+/* RELATIVE POSITIONING */
+div{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+#box3{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+
+/* FIXED POSITIONING */
+.wrapper{
+    height: 2000px;
+    width: 1000px;
+    background-color: chartreuse;
+}
+
+/* #box1{
+    position: fixed ;
+}  */
+
+
+/* #box3{
+    position: absolute;
+} */
+
+
+
+
+/* STICKY POSITION */
+
+#box4{
+    position: sticky;
+    top: 0px;
+}
+

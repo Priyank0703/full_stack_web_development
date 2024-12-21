@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table2</title>
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- rowspan and col span functionlity learn -->
+
+    <!-- basic table -->
+    <!-- <table border="1">
+      <tr>
+        <th>Month</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>Jan</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>Feb</td>
+        <td>500</td>
+      </tr>
+      <tr>
+        <td>March</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <th>Total</th>
+        <th>1000</th>
+      </tr>
+    </table> -->
+
+    <!-- <table border="1">
+        <caption>Table align system</caption>
+      <tr>
+        <td>abcd</td>
+        <td>abcd</td>
+        <td>abcd</td>
+      </tr>
+      <tr>
+        <td>abcd</td>
+        <td>abcd</td>
+        <td>abcd</td>
+      </tr>
+      <tr>
+        <td>abcd</td>
+        <td>abcd</td>
+        <td>abcd</td>
+      </tr>
+      <tr>
+        <td>abcd</td>
+        <td rowspan="2" colspan="2">abcd</td>
+         <td>abcd</td> -->
+      <!-- </tr>
+      <tr>
+        <td>abcd</td>
+         <td>abcd</td> -->
+        <!-- <td>abcd</td> -->
+      <!-- </tr> -->
+    <!-- </table> --> 
+
+
+    <table border="1">
+
+        <colgroup>
+            <col span="1">
+            <col span="1" style="background-color: aquamarine;">
+            <col span="1" style="background-color: chocolate;">
+            <col span="1" style="visibility: collapse;"
+        </colgroup>
+
+
+
+
+        <!-- first row -->
+        <tr>
+            <td rowspan="2">stete of health</td>
+            <td colspan="2">fasting value</td>
+            <td>after eating</td>
+        </tr>
+        <tr>
+            <td>minimum</td>
+            <td>maximum</td>
+            <td>2 hours after eating</td>
+        </tr>
+
+        <!-- second row -->
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>less than 140</td>
+        </tr>
+
+        <!-- third row -->
+        <tr>
+            <td>pre-diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 120</td>
+        </tr>
+
+        <!-- fourth row -->
+        <tr>
+            <td>diabetes</td>
+            <td>more than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+
+
+    </table>
+
+
+
+  </body>
+</html>

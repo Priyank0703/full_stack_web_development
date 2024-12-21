@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* સ્ક્રીનની ઊંચાઈ માટે */
+    margin: 0; /* અંતર દૂર કરવા */
+  }
+
+
+.box{
+    border-radius: 15px;
+    height: 350px;
+    width: 325px;
+    border: 1px solid black;
+}
+
+
+#thumb{
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+
+#hading{
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 700;
+}
+
+
+#line{
+    margin-left: 15px;
+    margin-right: 85px;
+}
+
+
+#price{
+    padding-left: 15px;
+    color: rgb(102, 116, 204);
+}
+
+
+#discount{
+    background-color: cadetblue;
+    color: white;
+}

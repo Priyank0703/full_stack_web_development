@@ -1,0 +1,36 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+    border: 3px solid black;
+    display: flex;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 10px;
+
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+
+    /* TO USE FOUR IN ONCE WE USE TRANSITION PROPERTY */
+    /* 1ST - TRANSITION-PROPERTY 
+    2ND - TRANSITION-DURATION 
+    3RD - TRANSITION-TIMING-FUNCTION 
+    4TH - TRANSITION-DELAY  */
+    transition: transform 1s ease 0.2s ;
+    
+}
+
+.box:hover{
+    /* background-color: rebeccapurple; */
+    transform: translateX(500px) rotate(360deg);
+}
+
+
